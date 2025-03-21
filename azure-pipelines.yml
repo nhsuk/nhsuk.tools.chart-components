@@ -18,4 +18,4 @@ extends:
     PublishLocation: 'public'
     Project:
       Name: 'NHSUK Tools Package - Chart Components'
-      RepositoryName: 'nhsuk-tools-chart-components'
+      RepositoryName: 'nhsuk.tools.chart-components'
