@@ -1,0 +1,25 @@
+{
+  "org": "nhsuk",
+  "project": {
+    "name": "toolschrtcomp",
+    "short_name": "chrtcomp"
+  },
+  "environment": {
+    "name": "integration",
+    "shortName": "int",
+    "subscriptionId": "24b7f5d4-1da7-4e93-8c1d-996df8b9ac81"
+  },
+   "regions": [
+    {
+      "is_primary": true,
+      "name": "uksouth",
+      "short_name": "uks"
+    }
+  ],
+  "static_web_app": {
+    "region":{
+      "name" : "westeurope",
+      "short_name": "weu"
+    } 
+  }
+}

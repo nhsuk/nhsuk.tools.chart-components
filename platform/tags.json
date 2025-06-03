@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "resource_tags": {
+      "costing_pcode": "P0808/01",
+      "created_by": "zahra.hasan2@nhschoices.net",
+      "devops:project": "nhsuk.tools.chart-components",
+      "devops:repository": "nhsuk.tools.chart-components",
+      "product_owner": "sally.boyes@nhs.net",
+      "requested_by": "josh.bates@nhschoices.net",
+      "service-product": "tools/chart-components",
+      "service_level": "bronze",
+      "team": "Product Ops",
+      "tech_lead": "josh.bates@nhschoices.net"
+    },
+    "mandatory_tags": [
+      "costing_pcode",
+      "created_by",
+      "devops:project",
+      "devops:repository",
+      "product_owner",
+      "requested_by",
+      "service-product",
+      "service_level",
+      "team",
+      "tech_lead"
+    ]
+  }
+}
