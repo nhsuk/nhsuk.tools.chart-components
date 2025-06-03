@@ -42,3 +42,14 @@ gitleaks-report.json
 # Custom
 storybook-static/
 *storybook.log
+
+# Local .terraform directories
+**/.terraform/*
+**/output/*
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
