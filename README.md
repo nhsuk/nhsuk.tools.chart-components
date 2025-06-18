@@ -52,7 +52,7 @@ The Blood Pressure (BP) chart component can be used to visualise systolic and di
 />
 ```
 
-A `storybook` instance for the components can be found in `https://tools-graph-components.nhswebsite-dev.nhs.uk/?path=/docs/welcome--docs`
+A `storybook` instance for the components can be found in `https://red-water-0aa7dfb03.6.azurestaticapps.net/?path=/docs/welcome--docs`
 
 ## Installation
 

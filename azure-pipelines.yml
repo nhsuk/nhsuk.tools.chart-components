@@ -9,7 +9,6 @@ resources:
     - repository: templates
       type: git
       name: nhsuk.tools.packages.pipeline.templates
-      ref: task/PROD-770_migrate_chartcomp_to_lz
 
 extends:
   template: main-storybook.yml@templates 
