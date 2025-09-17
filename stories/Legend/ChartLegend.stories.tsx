@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/react-vite';
 import { ChartLegend } from '@components/chart-legend';
 import { BmiChartMarkerIcon } from '@components/bmi/bmi-chart-marker-icon';
 

@@ -1,10 +1,2 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-# this is a workaround for excessive output from lint-staged when used in pre-commit hook 
-# see https://github.com/okonet/lint-staged/issues/1164
-# see also https://github.com/typicode/husky/issues/968#issuecomment-1176848345
-exec >/dev/tty 2>&1
-
-npx lint-staged
+npx --no-install lint-staged
 ./scripts/githooks/gitleaks.sh

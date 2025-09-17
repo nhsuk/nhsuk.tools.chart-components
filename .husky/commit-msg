@@ -1,0 +1,8 @@
+REGEX_COMMIT_MSG="^((PROD)-[0-9]{1,15}: .+|Merge branch .+|Merge remote-tracking branch .+|Revert .+)$"
+
+if ! grep -iE "$REGEX_COMMIT_MSG" "$1"; then
+  echo -e \
+    '\e[31merror\e[0m commit messages must begin with a JIRA identifier' \
+    '(e.g. PROD-100: Did the thing)'
+  exit 1
+fi
