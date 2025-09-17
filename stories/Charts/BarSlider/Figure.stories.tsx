@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/react-vite';
 import { BarSliderChartFigure } from '@components/bar-slider/bar-slider-figure-chart';
 import { mockBarSliderConfigExample1 } from '@tests/__helpers__/mocks/bar-slider-results';
 

@@ -7,16 +7,17 @@ pr:
 resources:
   repositories:
     - repository: templates
-      type: git
-      name: nhsuk.tools.packages.pipeline.templates
+      type: github
+      name: nhsuk/nhsuk.tools.pipeline-templates
+      endpoint: nhsuk
 
 extends:
-  template: main-storybook.yml@templates 
+  template: storybook.yml@templates
   parameters:
     Project:
-        Name: 'NHSUK Tools Package - Chart Components'
-        RepositoryName: 'nhsuk.tools.chart-components'
-        ShortName: 'toolschrtcomp'
+      Name: 'NHSUK Tools Package - Chart Components'
+      RepositoryName: 'nhsuk.tools.chart-components'
+      ShortName: 'toolschrtcomp'
     BuildStorybook: true
     PublishLocation: 'public'
     AgentPool: 'Azure Pipelines'
@@ -33,5 +34,3 @@ extends:
         enabled: true
         dependsOn:
           - PreDeploySetup
-  
-   

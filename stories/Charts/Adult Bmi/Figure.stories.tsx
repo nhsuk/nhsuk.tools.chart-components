@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/react-vite';
 import { mockedBmiClassificationBounds } from '@tests/__helpers__/mocks/bmi-results';
 import { BmiChartFigure } from '@components/bmi/bmi-figure-chart';
 

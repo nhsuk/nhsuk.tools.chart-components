@@ -1,5 +1,5 @@
 import './storybook.scss';
-import type { Preview } from '@storybook/react';
+import type { Preview } from '@storybook/react-vite';
 import '../src/components/styles/index.scss';
 
 const preview: Preview = {
@@ -11,5 +11,7 @@ const preview: Preview = {
       },
     },
   },
+
+  tags: ['autodocs'],
 };
 export default preview;

@@ -1,8 +1,8 @@
-module.exports = {
+export default {
   'src/**/*.ts': () => 'npx tsc',
   '**/*.(js|ts)': (filenames) => [
-    `npx eslint -- ${filenames.join(' ')}`,
-    `npx prettier --write -- ${filenames.join(' ')}`,
+    `npm run lint:files -- ${filenames.join(' ')}`,
+    `npm run prettier:files --write -- ${filenames.join(' ')}`,
   ],
   './*.(md|json)': (filenames) => [
     `npx prettier --write -- ${filenames.join(' ')}`,
