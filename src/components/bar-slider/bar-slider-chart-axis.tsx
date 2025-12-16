@@ -32,7 +32,7 @@ function AxisMarker({
       className={`${markerAxisClassname(chartName, offsetPercent)}`}
       style={{ left: `${offsetPercent}%` }}>
       <div
-        className={`nhsuk-font-size-16 nhsuk-u-secondary-text-color ${markerAxisLabelClassname(
+        className={`nhsuk-font-size-16 nhsuk-u-secondary-text-colour ${markerAxisLabelClassname(
           chartName,
           offsetPercent
         )}`}>

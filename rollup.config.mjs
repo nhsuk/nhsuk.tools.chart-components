@@ -38,7 +38,9 @@ export default [
     ],
     plugins: [
       ...commonPlugins,
-      scss({ fileName: 'bundle.css' }),
+      scss({ fileName: 'bundle.css',
+        includePaths: ['node_modules'] 
+       }),
       typescript({
         compilerOptions: {
           declaration: false,

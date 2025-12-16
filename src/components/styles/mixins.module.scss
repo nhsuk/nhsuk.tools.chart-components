@@ -1,5 +1,5 @@
 @use 'sass:map';
-@import 'nhsuk-frontend/packages/core/settings/_breakpoints.scss';
+@use 'nhsuk-frontend/dist/nhsuk/core/tools/sass-mq' as *;
 
 $marker-axis-offset: 5px;
 

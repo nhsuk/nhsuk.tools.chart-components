@@ -3,14 +3,14 @@ $cbmi-graph-height-mobile: 24px;
 
 $cbmi-graph-outline: 1px solid black;
 
-$cbmi-underweight-color: #330072;
-$cbmi-overweight-color: #ffb81c;
-$cbmi-healthy-color: #30b4ab;
+$cbmi-underweight-colour: #330072;
+$cbmi-overweight-colour: #ffb81c;
+$cbmi-healthy-colour: #30b4ab;
 
 %cbmi-classification-healthy {
   background: repeating-linear-gradient(
     -45deg,
-    $cbmi-healthy-color,
+    $cbmi-healthy-colour,
     #30b4ab 4.5px,
     #00a499 4.5px,
     #00a499 9px
@@ -18,9 +18,9 @@ $cbmi-healthy-color: #30b4ab;
 }
 
 %cbmi-classification-overweight {
-  background: $cbmi-overweight-color;
+  background: $cbmi-overweight-colour;
 }
 
 %cbmi-classification-underweight {
-  background: $cbmi-underweight-color;
+  background: $cbmi-underweight-colour;
 }

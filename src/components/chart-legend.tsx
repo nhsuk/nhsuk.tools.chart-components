@@ -102,7 +102,7 @@ export function ChartLegend({
   borderWrapper = true,
 }: Readonly<ChartLegendProps>): JSX.Element {
   const className =
-    'nhsuk-u-margin-top-6 nhsuk-u-margin-bottom-3 nhsuk-u-secondary-text-color nhsuk-body-s';
+    'nhsuk-u-margin-top-6 nhsuk-u-margin-bottom-3 nhsuk-u-secondary-text-colour nhsuk-body-s';
 
   return (
     <div aria-hidden="true">

@@ -19,6 +19,13 @@ const config: StorybookConfig = {
   viteFinal(config) {
     return mergeConfig(config, {
       plugins: [tsConfigPaths()],
+      css: {
+        preprocessorOptions: {
+          scss: {
+            includePaths: ['node_modules'],
+          },
+        },
+      },
     });
   },
 };
