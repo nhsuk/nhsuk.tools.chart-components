@@ -223,61 +223,65 @@ exports[`The Blood pressure chart figure component Renders with the expected con
         class="nhsuk-card nhsuk-u-margin-top-6 nhsuk-u-margin-bottom-3 nhsuk-u-secondary-text-color nhsuk-body-s nhsuk-u-padding-3 nhsuk-chart-legend-card"
       >
         <div
-          class="nhsuk-chart-legend-key-wrapper "
+          class="nhsuk-card__content"
         >
           <div
-            class="nhsuk-chart-legend-key nhsuk-bp-legend-key-classification-high"
-          />
-          High
-        </div>
-        <div
-          class="nhsuk-chart-legend-key-wrapper "
-        >
-          <div
-            class="nhsuk-chart-legend-key nhsuk-bp-legend-key-classification-slightlyraised"
-          />
-          Slightly raised
-        </div>
-        <div
-          class="nhsuk-chart-legend-key-wrapper "
-        >
-          <div
-            class="nhsuk-chart-legend-key nhsuk-bp-legend-key-classification-healthy"
-          />
-          healthy
-        </div>
-        <div
-          class="nhsuk-chart-legend-key-wrapper "
-        >
-          <div
-            class="nhsuk-chart-legend-key nhsuk-bp-legend-key-classification-low"
-          />
-          low
-        </div>
-        <div
-          class="nhsuk-chart-legend-key-wrapper "
-        >
-          <div
-            class="nhsuk-chart-legend-key nhsuk-bp-legend-key-marker"
+            class="nhsuk-chart-legend-key-wrapper "
           >
-            <svg
-              fill="none"
-              viewBox="0 0 32 32"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g
-                clip-path="url(#clip0_1346_102759)"
-              >
-                <path
-                  d="M5.18718 8.36931L4.48008 9.07641L5.18718 9.78352L11.3744 15.9707L5.18718 22.1579L4.48008 22.865L5.18718 23.5721L8.36916 26.7541L9.07627 27.4612L9.78338 26.7541L15.9706 20.5669L22.1577 26.7541L22.8649 27.4612L23.572 26.7541L26.7539 23.5721L27.461 22.865L26.7539 22.1579L20.5668 15.9707L26.7539 9.78352L27.461 9.07641L26.7539 8.36931L23.572 5.18732L22.8649 4.48022L22.1577 5.18732L15.9706 11.3745L9.78338 5.18732L9.07627 4.48022L8.36916 5.18732L5.18718 8.36931Z"
-                  fill="black"
-                  stroke="white"
-                  stroke-width="2"
-                />
-              </g>
-            </svg>
+            <div
+              class="nhsuk-chart-legend-key nhsuk-bp-legend-key-classification-high"
+            />
+            High
           </div>
-          Your reading
+          <div
+            class="nhsuk-chart-legend-key-wrapper "
+          >
+            <div
+              class="nhsuk-chart-legend-key nhsuk-bp-legend-key-classification-slightlyraised"
+            />
+            Slightly raised
+          </div>
+          <div
+            class="nhsuk-chart-legend-key-wrapper "
+          >
+            <div
+              class="nhsuk-chart-legend-key nhsuk-bp-legend-key-classification-healthy"
+            />
+            healthy
+          </div>
+          <div
+            class="nhsuk-chart-legend-key-wrapper "
+          >
+            <div
+              class="nhsuk-chart-legend-key nhsuk-bp-legend-key-classification-low"
+            />
+            low
+          </div>
+          <div
+            class="nhsuk-chart-legend-key-wrapper "
+          >
+            <div
+              class="nhsuk-chart-legend-key nhsuk-bp-legend-key-marker"
+            >
+              <svg
+                fill="none"
+                viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_1346_102759)"
+                >
+                  <path
+                    d="M5.18718 8.36931L4.48008 9.07641L5.18718 9.78352L11.3744 15.9707L5.18718 22.1579L4.48008 22.865L5.18718 23.5721L8.36916 26.7541L9.07627 27.4612L9.78338 26.7541L15.9706 20.5669L22.1577 26.7541L22.8649 27.4612L23.572 26.7541L26.7539 23.5721L27.461 22.865L26.7539 22.1579L20.5668 15.9707L26.7539 9.78352L27.461 9.07641L26.7539 8.36931L23.572 5.18732L22.8649 4.48022L22.1577 5.18732L15.9706 11.3745L9.78338 5.18732L9.07627 4.48022L8.36916 5.18732L5.18718 8.36931Z"
+                    fill="black"
+                    stroke="white"
+                    stroke-width="2"
+                  />
+                </g>
+              </svg>
+            </div>
+            Your reading
+          </div>
         </div>
       </div>
     </div>

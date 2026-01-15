@@ -1,5 +1,5 @@
 @use 'sass:map';
-@import 'nhsuk-frontend/packages/core/settings/_breakpoints.scss';
+@import 'nhsuk-frontend/dist/nhsuk/core/settings/_breakpoints.scss';
 
 $marker-axis-offset: 5px;
 
@@ -10,19 +10,19 @@ $marker-axis-offset: 5px;
 }
 
 @mixin for-small-mobile {
-  @media (max-width: map-get($mq-breakpoints, mobile)) {
+  @media (max-width: map-get($nhsuk-breakpoints, mobile)) {
     @content;
   }
 }
 
 @mixin for-mobile {
-  @media (min-width: map-get($mq-breakpoints, mobile)) and (max-width: map-get($mq-breakpoints, tablet)) {
+  @media (min-width: map-get($nhsuk-breakpoints, mobile)) and (max-width: map-get($nhsuk-breakpoints, tablet)) {
     @content;
   }
 }
 
 @mixin up-to-tablet {
-  @media (max-width: map-get($mq-breakpoints, tablet)) {
+  @media (max-width: map-get($nhsuk-breakpoints, tablet)) {
     @content;
   }
 }
