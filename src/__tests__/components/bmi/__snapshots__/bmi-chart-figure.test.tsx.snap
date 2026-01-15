@@ -89,61 +89,65 @@ exports[`The Body mass index chart figure component Renders with the expected co
         class="nhsuk-card nhsuk-u-margin-top-6 nhsuk-u-margin-bottom-3 nhsuk-u-secondary-text-color nhsuk-body-s nhsuk-u-padding-3 nhsuk-chart-legend-card"
       >
         <div
-          class="nhsuk-chart-legend-key-wrapper "
+          class="nhsuk-card__content"
         >
           <div
-            class="nhsuk-chart-legend-key nhsuk-bmi-legend-key-classification-underweight"
-          />
-          Underweight
-        </div>
-        <div
-          class="nhsuk-chart-legend-key-wrapper "
-        >
-          <div
-            class="nhsuk-chart-legend-key nhsuk-bmi-legend-key-classification-healthy"
-          />
-          Healthy
-        </div>
-        <div
-          class="nhsuk-chart-legend-key-wrapper "
-        >
-          <div
-            class="nhsuk-chart-legend-key nhsuk-bmi-legend-key-classification-overweight"
-          />
-          Overweight
-        </div>
-        <div
-          class="nhsuk-chart-legend-key-wrapper "
-        >
-          <div
-            class="nhsuk-chart-legend-key nhsuk-bmi-legend-key-classification-obese"
-          />
-          Obese
-        </div>
-        <div
-          class="nhsuk-chart-legend-key-wrapper "
-        >
-          <div
-            class="nhsuk-chart-legend-key nhsuk-bmi-legend-key-marker"
+            class="nhsuk-chart-legend-key-wrapper "
           >
-            <svg
-              fill="none"
-              viewBox="1 1 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g
-                clip-path="url(#clip0_1346_102759)"
-              >
-                <path
-                  d="M1.93209 4.05025L1.57854 4.40381L1.93209 4.75736L6.17473 9L1.93209 13.2426L1.57854 13.5962L1.93209 13.9497L4.05341 16.0711L4.40697 16.4246L4.76052 16.0711L9.00316 11.8284L13.2458 16.0711L13.5994 16.4246L13.9529 16.0711L16.0742 13.9497L16.4278 13.5962L16.0742 13.2426L11.8316 9L16.0742 4.75736L16.4278 4.40381L16.0742 4.05025L13.9529 1.92893L13.5994 1.57538L13.2458 1.92893L9.00316 6.17157L4.76052 1.92893L4.40697 1.57538L4.05341 1.92893L1.93209 4.05025Z"
-                  fill="black"
-                  stroke="white"
-                  xmlns="http://www.w3.org/2000/svg"
-                />
-              </g>
-            </svg>
+            <div
+              class="nhsuk-chart-legend-key nhsuk-bmi-legend-key-classification-underweight"
+            />
+            Underweight
           </div>
-          Your BMI
+          <div
+            class="nhsuk-chart-legend-key-wrapper "
+          >
+            <div
+              class="nhsuk-chart-legend-key nhsuk-bmi-legend-key-classification-healthy"
+            />
+            Healthy
+          </div>
+          <div
+            class="nhsuk-chart-legend-key-wrapper "
+          >
+            <div
+              class="nhsuk-chart-legend-key nhsuk-bmi-legend-key-classification-overweight"
+            />
+            Overweight
+          </div>
+          <div
+            class="nhsuk-chart-legend-key-wrapper "
+          >
+            <div
+              class="nhsuk-chart-legend-key nhsuk-bmi-legend-key-classification-obese"
+            />
+            Obese
+          </div>
+          <div
+            class="nhsuk-chart-legend-key-wrapper "
+          >
+            <div
+              class="nhsuk-chart-legend-key nhsuk-bmi-legend-key-marker"
+            >
+              <svg
+                fill="none"
+                viewBox="1 1 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_1346_102759)"
+                >
+                  <path
+                    d="M1.93209 4.05025L1.57854 4.40381L1.93209 4.75736L6.17473 9L1.93209 13.2426L1.57854 13.5962L1.93209 13.9497L4.05341 16.0711L4.40697 16.4246L4.76052 16.0711L9.00316 11.8284L13.2458 16.0711L13.5994 16.4246L13.9529 16.0711L16.0742 13.9497L16.4278 13.5962L16.0742 13.2426L11.8316 9L16.0742 4.75736L16.4278 4.40381L16.0742 4.05025L13.9529 1.92893L13.5994 1.57538L13.2458 1.92893L9.00316 6.17157L4.76052 1.92893L4.40697 1.57538L4.05341 1.92893L1.93209 4.05025Z"
+                    fill="black"
+                    stroke="white"
+                    xmlns="http://www.w3.org/2000/svg"
+                  />
+                </g>
+              </svg>
+            </div>
+            Your BMI
+          </div>
         </div>
       </div>
     </div>
