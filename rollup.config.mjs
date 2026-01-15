@@ -6,7 +6,6 @@ import external from 'rollup-plugin-peer-deps-external';
 import { dts } from 'rollup-plugin-dts';
 import preserveDirectives from 'rollup-plugin-preserve-directives';
 import tsPaths from 'rollup-plugin-tsconfig-paths';
-import packageJson from './package.json' assert { type: 'json' };
 import scss from 'rollup-plugin-scss';
 import tsBuildConfig from './tsconfig.json' assert { type: 'json' };
 
@@ -38,7 +37,10 @@ export default [
     ],
     plugins: [
       ...commonPlugins,
-      scss({ fileName: 'bundle.css' }),
+      scss({ 
+        fileName: 'bundle.css',
+        includePaths: ['node_modules']
+      }),
       typescript({
         compilerOptions: {
           declaration: false,
@@ -62,7 +64,10 @@ export default [
     ],
     plugins: [
       ...commonPlugins,
-      scss({ fileName: 'bundle.css' }),
+      scss({ 
+        fileName: 'bundle.css',
+        includePaths: ['node_modules']
+      }),
       typescript({
         compilerOptions: {
           declaration: true,
