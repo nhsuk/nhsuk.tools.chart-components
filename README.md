@@ -56,7 +56,7 @@ A `storybook` instance for the components can be found in `https://red-water-0aa
 
 ## Installation
 
-Ensure you have Node.js 20.x.x. installed. Usage of NVM is recommended, to allow for easily switching between versions on different projects.
+Ensure you have Node.js 24x.x. installed. Usage of NVM is recommended, to allow for easily switching between versions on different projects.
 
 `npm install` will install dependencies.
 
