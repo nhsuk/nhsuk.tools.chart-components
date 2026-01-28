@@ -10,6 +10,7 @@ resources:
       type: github
       name: nhsuk/nhsuk.tools.pipeline-templates
       endpoint: nhsuk
+      ref: story/PROD-2638_node_24_upgrade
 
 extends:
   template: storybook.yml@templates
