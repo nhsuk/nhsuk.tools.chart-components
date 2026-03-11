@@ -9,32 +9,36 @@ exports[`Chart Legend renders content as expected 1`] = `
       class="nhsuk-card nhsuk-u-margin-top-6 nhsuk-u-margin-bottom-3 nhsuk-u-secondary-text-color nhsuk-body-s nhsuk-u-padding-3 nhsuk-chart-legend-card"
     >
       <div
-        class="nhsuk-chart-legend-key-wrapper legend-wrapper"
+        class="nhsuk-card__content"
       >
         <div
-          class="nhsuk-chart-legend-key "
-        />
-        Key One
-      </div>
-      <div
-        class="nhsuk-chart-legend-key-wrapper "
-      >
-        <div
-          class="nhsuk-chart-legend-key key-two-class"
-        />
-        Key Two
-      </div>
-      <div
-        class="nhsuk-chart-legend-key-wrapper "
-      >
-        <div
-          class="nhsuk-chart-legend-key "
+          class="nhsuk-chart-legend-key-wrapper legend-wrapper"
         >
-          <span>
-            Key three element
-          </span>
+          <div
+            class="nhsuk-chart-legend-key "
+          />
+          Key One
         </div>
-        Key Three
+        <div
+          class="nhsuk-chart-legend-key-wrapper "
+        >
+          <div
+            class="nhsuk-chart-legend-key key-two-class"
+          />
+          Key Two
+        </div>
+        <div
+          class="nhsuk-chart-legend-key-wrapper "
+        >
+          <div
+            class="nhsuk-chart-legend-key "
+          >
+            <span>
+              Key three element
+            </span>
+          </div>
+          Key Three
+        </div>
       </div>
     </div>
   </div>
