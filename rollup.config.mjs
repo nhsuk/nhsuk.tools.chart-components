@@ -7,8 +7,10 @@ import { dts } from 'rollup-plugin-dts';
 import preserveDirectives from 'rollup-plugin-preserve-directives';
 import tsPaths from 'rollup-plugin-tsconfig-paths';
 import scss from 'rollup-plugin-scss';
-import tsBuildConfig from './tsconfig.json' assert { type: 'json' };
-
+import fs from 'fs';
+const tsBuildConfig = JSON.parse(
+  fs.readFileSync(new URL('./tsconfig.json', import.meta.url), 'utf8')
+);
 // suppresses warnings printed to console as part of bundling components with directives present.
 const onWarnSuppression = {
   onwarn(warning, warn) {
