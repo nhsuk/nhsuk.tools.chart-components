@@ -10,6 +10,10 @@ resources:
       type: github
       name: nhsuk/nhsuk.tools.pipeline-templates
       endpoint: nhsuk
+    - repository: platformTemplates
+      type: github
+      name: nhsuk/nhsuk.platform.pipeline-templates
+      endpoint: nhsuk
 
 extends:
   template: storybook.yml@templates
